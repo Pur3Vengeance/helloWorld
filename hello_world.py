@@ -1,11 +1,14 @@
 
-def welcome():
-    print("Hello World")
+def welcome(name):
+    print("Hello",name)
 
-def goodbye():
-    print("Goodbye World")
-welcome()
-goodbye()
+def goodbye(name):
+    print("Goodbye", name)
+
+name = input("Please enter your name:")
+
+welcome(name)
+goodbye(name)
 
 
 
